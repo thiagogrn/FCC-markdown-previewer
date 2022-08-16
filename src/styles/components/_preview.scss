@@ -1,0 +1,36 @@
+@use '../abstracts/colors' as *;
+
+.preview-container {
+    width: 80%;
+}
+
+.preview-header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid $very-dark-green;
+    font-weight: 700;
+    font-size: 1.8em;
+    background-color: $dark-green;
+}
+
+#preview {
+    padding: 1rem 2rem;
+    border: 1px solid;
+    font-size: 1.6em;
+    background-color: $light-green;
+}
+
+#preview * {
+    margin-bottom: 1rem;
+}
+
+#preview li {
+    margin-left: 2.5rem;
+}
+
+#preview img {
+    width: 50%;
+    height: 50%;
+}
+

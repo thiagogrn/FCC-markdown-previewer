@@ -1,0 +1,44 @@
+@use '../abstracts/colors' as *;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 2rem 0;
+    gap: 5rem;
+    background-color: $soft-green;
+}
+
+.icon {
+    margin-right: 0.5rem;
+}
+
+.editor-container {
+    width: 60%;
+    height: 20rem;
+}
+
+.editor-header {
+    padding: 1rem;
+    border: 1px solid $very-dark-green;
+    font-size: 1.8em;
+    font-weight: 700;
+    background-color: $dark-green;
+}
+
+.icon {
+    margin-right: 0.5rem;
+}
+
+#editor {
+    width: 100%;
+    height: 100%;
+    padding: 1rem 0rem;
+    border: 1px solid;
+    resize: none;
+    outline: none;
+    background-color: $light-green;
+}
