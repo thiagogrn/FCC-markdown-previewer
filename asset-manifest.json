@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/FCC-markdown-previewer/static/css/main.4b25e746.css",
+    "main.js": "/FCC-markdown-previewer/static/js/main.27cbfc6d.js",
+    "static/media/fcc-logo.png": "/FCC-markdown-previewer/static/media/fcc-logo.cc98822c11b81a38c7fa.png",
+    "index.html": "/FCC-markdown-previewer/index.html",
+    "main.4b25e746.css.map": "/FCC-markdown-previewer/static/css/main.4b25e746.css.map",
+    "main.27cbfc6d.js.map": "/FCC-markdown-previewer/static/js/main.27cbfc6d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b25e746.css",
+    "static/js/main.27cbfc6d.js"
+  ]
+}
